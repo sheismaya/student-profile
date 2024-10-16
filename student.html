@@ -1,62 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-
-.yazi {
-	column-count:4;
-	column-width: 250px;
-	column-gap: 15px;
-	column-rule: 10px solid red; 
-	background:rgba(255,0,0,0.7);
-	text-transform: capitalize;
-}
-p {
-	columns: 2;
-}
-.qutu1 {
-	width: 100px;
-	height: 50px;
-	float: left;
-	border:10px solid blue;
-	box-sizing: border-box;
-}
-.qutu2 {
-	width: 100px;
-	height: 50px;
-	border:10px solid red;
-	padding:15px;
-	box-sizing: border-box;
-}
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-<h1> width+padding+border=Real Genislik</h1>
-<h1>height+padding+border=Real Hundurluq</h1>
-<div class="qutu1">Qutu1</div>
-<div class="qutu2">Qutu2</div>
-
-<p>RGBA</p>
-<p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
-
-<hr>
-<div class="yazi">On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look.
-You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly.
-To change the overall look of your document, choose new Theme elements on the Page Layout tab. To change the looks available in the Quick Style gallery, use the Change Current Quick Style Set command. Both the Themes gallery and the Quick Styles gallery provide reset commands so that you can always restore the look of your document to the original contained in your current template.
-On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look.
-You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly.
-To change the overall look of your document, choose new Theme elements on the Page Layout tab. To change the looks available in the Quick Style gallery, use the Change Current Quick Style Set command. Both the Themes gallery and the Quick Styles gallery provide reset commands so that you can always restore the look of your document to the original contained in your current template.
-On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look.
-You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly.
-To change the overall look of your document, choose new Theme elements on the Page Layout tab. To change the looks available in the Quick Style gallery, use the Change Current Quick Style Set command. Both the Themes gallery and the Quick Styles gallery provide reset commands so that you can always restore the look of your document to the original contained in your current template.
-On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look.
-</div>
+    <h2>Student profile</h2>
+    <table border="1" style="border-collapse: collapse;">
+    <tr>
+        <th colspan="3">Personal Information</th>
+    </tr>
+    <tr>
+        <td rowspan="4"><img src="image2.jpg" alt="" width="62.55" height="84"></td>
+        <td>Full Name:</td>
+        <td>Kate Miller</td>
+    </tr>
+    <tr>
+        <td>Age:</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Major:</td>
+        <td>Computer science</td>
+    </tr>
+    <tr>
+        <td>Email:</td>
+        <td><a href="#">kate.miller@example.com</a></td>
+    </tr>
+    <tr>
+        <th colspan="2">Academic information</th>
+        <th colspan="1">Personal information</th>
+    </tr>
+    <tr>
+        <td colspan="2"><b>Academic achievements</b></td>
+        <td rowspan="6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            In voluptatibus reprehenderit assumenda<br> ullam a tempora! Laudantium, vitae 
+            quia suscipit libero accusantium impedit voluptas velit cum iusto<br>
+             vero tenetur illum eos!</td>
+    </tr>
+<tr>
+    <td colspan="2"><a href=""#>Certificate</a></td>
+</tr>
+<tr>
+    <td colspan="2">Extracurricular Activities</td>
+</tr>
+<tr>
+    <td colspan="2">
+        <ul> 
+        <li>Soccer Team</li>
+        <li>Chess Club</li>
+    </ul>
+    </td>
+</tr>
+<tr>
+    <td colspan="2">
+        <b>Hobbies and interests</b>
+    </td>
+</tr>
+<tr>
+    <td colspan="2"><ol>
+        <li>Reading </li>
+        <li>Photography</li>
+    </ol>
+</td>
+</tr>
+</table>
 </body>
 </html>
